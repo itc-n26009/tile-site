@@ -1,94 +1,110 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>わたしの好きなもの図鑑</title>
+  <title>MY FAVORITES</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- ★① サイトの名前とひとことを、自分のものに変える -->
+  <!-- ★① サイト名とひとこと -->
   <header class="site-header">
-    <h1>わたしの好きなもの図鑑</h1>
-    <p>最近ハマってるものを集めました</p>
+    <h1>MY FAVORITES</h1>
+    <p>大好きなペットと漫画やアニメを紹介します！</p>
   </header>
 
   <div class="container">
     <main>
-      <h2>好きなもの</h2>
+      <h2>好きなもの図鑑</h2>
       <div class="tiles">
-        <!-- ★② タイル1枚 ＝ article 1つ。中身を自分の好きなものに変える（6枚以上） -->
+
+        <!-- ★② タイル1：飼い犬 -->
         <article class="tile">
-          <!-- ★③ 写真を用意したら、下の div を img に置きかえる
-               例：<img src="images/cake.jpg" alt="いちごのショートケーキ"> -->
-          <div class="tile-img" style="background: #fbcfe8;"></div>
+          <img src="images/dog.jpg" alt="飼い犬の写真">
           <div class="tile-body">
-            <h3>ショートケーキ</h3>
-            <p>いちごが乗っているのが一番好き。</p>
+            <h3>飼い犬</h3>
+            <p>大切な家族の一員。毎日癒やされています！</p>
           </div>
         </article>
 
+        <!-- タイル2：ねこねこ -->
         <article class="tile">
-          <div class="tile-img" style="background: #bfdbfe;"></div>
+          <img src="images/cat.jpg" alt="子猫の写真">
           <div class="tile-body">
-            <h3>海</h3>
-            <p>夏の夕方の海をぼーっと見るのが好き。</p>
+            <h3>ねこねこ</h3>
+            <p>三時間ほど一人で鳴き続けてた猫。親猫が見当たらないので保護した！</p>
           </div>
         </article>
 
+        <!-- タイル3：ONE PIECE -->
         <article class="tile">
-          <div class="tile-img" style="background: #bbf7d0;"></div>
+          <img src="images/onepiece.jpg" alt="ONE PIECEのイラスト">
           <div class="tile-body">
-            <h3>山登り</h3>
-            <p>最近ハマり中。朝の森は空気がちがう。</p>
+            <h3>ONE PIECE</h3>
+            <p>最強の老人がたくさん出てくる神漫画！推しはエースとヤマト</p>
           </div>
         </article>
 
+        <!-- タイル4：進撃の巨人 -->
         <article class="tile">
-          <div class="tile-img" style="background: #fde68a;"></div>
+          <img src="images/shingeki.jpg" alt="進撃の巨人のイラスト">
           <div class="tile-body">
-            <h3>ゲーム</h3>
-            <p>アクションゲームを毎晩少しずつ。</p>
+            <h3>進撃の巨人</h3>
+            <p>一度観始めたら止まらない神アニメ!色々考えさせられる</p>
           </div>
         </article>
 
+        <!-- タイル5：呪術廻戦 -->
         <article class="tile">
-          <div class="tile-img" style="background: #ddd6fe;"></div>
+          <img src="images/jujutsu.jpg" alt="呪術廻戦の漫画画像">
           <div class="tile-body">
-            <h3>ギター</h3>
-            <p>練習3か月め。コードを4つ覚えた。</p>
+            <h3>呪術廻戦</h3>
+            <p>呪いがテーマの面白すぎるアニメ！推しはパパ黒と真希さんのフィジギフコンビ</p>
           </div>
         </article>
 
+        <!-- タイル6：ドラゴンボール -->
         <article class="tile">
-          <div class="tile-img" style="background: #fecaca;"></div>
+          <img src="images/dragonball.jpg" alt="孫悟空のイラスト">
           <div class="tile-body">
-            <h3>犬</h3>
-            <p>実家の犬。帰るとしっぽで迎えてくれる。</p>
+            <h3>ドラゴンボール</h3>
+            <p>男で嫌いな人は一人もいない！ドラゴンボール観てる女の人で悪い人みたことない</p>
           </div>
         </article>
+
+        <!-- ★② 追加した7枚目 -->
+        <article class="tile">
+          <img src="images/chainsawman.jpg" alt="チェンソーマンのイラスト">
+          <div class="tile-body">
+            <h3>チェンソーマン</h3>
+            <p>バタバタキャラが死ぬ。レゼ辛い</p>
+          </div>
+        </article>
+
       </div>
     </main>
 
     <aside class="sidebar">
-      <!-- ★① 自己紹介も、自分のものに変える -->
+      <!-- ★① プロフィール -->
       <section class="box">
         <h2>プロフィール</h2>
-        <p>ITカレッジ沖縄の学生です。休みの日は海か山にいます。</p>
+        <p>ITカレッジ沖縄の学生です。アニメや漫画、犬と猫が大好きです！</p>
       </section>
+
       <section class="box">
         <h2>カテゴリ</h2>
         <ul>
-          <li>食べもの</li>
-          <li>場所</li>
-          <li>趣味</li>
+          <li>ペット</li>
+          <li>漫画・アニメ</li>
         </ul>
       </section>
     </aside>
   </div>
 
   <footer class="site-footer">
-    <small>&copy; 2026 わたしの好きなもの図鑑</small>
+    <small>&copy; 2026 MY FAVORITES</small>
   </footer>
 </body>
 </html>
+
